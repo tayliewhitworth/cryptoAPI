@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "cryptoTracker",
+    "slug": "cryptoTracker",
+    "description": "This app tracks the crypto market using cryptogeikos API",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/newsplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#B7AFDE"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
